@@ -1,0 +1,41 @@
+//To Print vowel or not//
+import java.util.*;
+class  VowelCode
+{
+	public static void main(String[] args) 
+	{
+		Scanner m=new Scanner(System.in);
+		char vowel;
+		System.out.println("Enter a vowel word(a-u ) : ");
+		vowel=m.next().charAt(0);
+
+		switch(vowel)
+		{
+			case 'A':
+			case 'a':
+			case 'E':
+			case 'e':
+			case 'I':
+			case 'i':
+			case 'O':
+			case 'o':
+			case 'U':
+			case 'u':
+				System.out.println("Vowel");
+			break;
+			default :
+				System.out.println("Not a vowel");
+		}
+	}
+}
+
+//Output1//
+Enter a vowel word(a-u ) :
+k
+Not a vowel
+Press any key to continue . . .
+//Output2//
+Enter a vowel word(a-u ) :
+a
+Vowel
+Press any key to continue . . .
